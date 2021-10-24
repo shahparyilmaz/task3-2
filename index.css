@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.image {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url(images/parallax.gif);
+}
+.top {
+  padding: 10vmin;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.top p {
+  padding: 5px 0 5px 0;
+  margin: 5px 0 0 0;
+  color: crimson;
+  border-radius: 1rem;
+}
+.top p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.top p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.top p:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.bottom {
+  min-height: 60vh;
+  font-size: 1rem;
+  padding: 10vmin;
+}
